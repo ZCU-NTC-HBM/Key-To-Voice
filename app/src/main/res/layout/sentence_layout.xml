@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cz.zcu.mmi.conceptual_kbd.view.SentenceView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sentenceView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sentenceHeight"
+    android:background="@drawable/sentence_background"
+    android:orientation="horizontal"
+    android:padding="1dp" />

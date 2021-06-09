@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryLightestest"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/topPanelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topPanelHeight"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/appPadding"
+        android:paddingStart="@dimen/appPadding">
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            style="@style/topPanelButtonStyle"
+            android:layout_width="@dimen/topPanelHeight"
+            android:layout_height="@dimen/topPanelHeight"
+            android:contentDescription="@string/home"
+            android:tag="@string/homeButton_help"
+            app:srcCompat="@drawable/ic_home_black_24dp" />
+
+        <TextView
+            android:id="@+id/topPanelText"
+            style="@style/topPanelTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:tag="@string/topPanelTitle_help"
+            android:text="@string/placeholderText" />
+
+        <ImageButton
+            android:id="@+id/helpButton"
+            style="@style/topPanelButtonStyle"
+            android:layout_width="@dimen/topPanelHeight"
+            android:layout_height="@dimen/topPanelHeight"
+            android:contentDescription="@string/help"
+            android:tag="@string/helpButton_help"
+            app:srcCompat="@drawable/ic_help_outline_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/settingsButton"
+            style="@style/topPanelButtonStyle"
+            android:layout_width="@dimen/topPanelHeight"
+            android:layout_height="@dimen/topPanelHeight"
+            android:contentDescription="@string/settings"
+            android:tag="@string/settingsButton_help"
+            app:srcCompat="@drawable/ic_settings_black_24dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topPanelLayout"
+        android:layout_marginBottom="@dimen/appPadding"
+        android:layout_marginLeft="@dimen/appPadding"
+        android:layout_marginRight="@dimen/appPadding">
+
+        <TextView
+            android:id="@+id/sentenceTextView"
+            style="@style/sentenceTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/topPanelHeight"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/rightColumnLayout"
+            android:tag="@string/textView_help"
+            android:text="@string/placeholderText"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/sentenceTextView"
+            android:layout_toStartOf="@+id/rightColumnLayout"
+            android:fillViewport="true">
+
+            <com.wefika.flowlayout.FlowLayout
+                android:id="@+id/itemsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/rightColumnLayout"
+            android:layout_width="@dimen/controlsPanelWidth"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/levelUpButton"
+                style="@style/Base.Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/levelUp"
+                android:tag="@string/levelUpButton_help"
+                app:srcCompat="@drawable/level_up" />
+
+            <ImageButton
+                android:id="@+id/scrollUpButton"
+                style="@style/Base.Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/up"
+                android:tag="@string/scrollUpButton_help"
+                app:srcCompat="@drawable/up" />
+
+            <ImageButton
+                android:id="@+id/scrollDownButton"
+                style="@style/Base.Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/down"
+                android:tag="@string/scrollDownButton_help"
+                app:srcCompat="@drawable/down" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

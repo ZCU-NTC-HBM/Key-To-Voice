@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Key-to-Voice</string>
+    <string name="home">home button</string>
+    <string name="settings">settings</string>
+    <string name="about">
+        <![CDATA[
+        <p>Tato aplikace vznikla na NTC a jejím cílem je usnadnit komunikaci pacientům, kteří nemohou mluvit.</p>
+
+        <p>Použité ikony byly získány na webu http://thenounproject.com a jsou poskytovány pod licencí CC BY 3.0.</p>
+
+        <h5>Seznam autorů použitých ikon:</h5>
+        &#8226; Star By Andy Fuchs, DE<br />
+        &#8226; Talking By Hedie Assadi Joulaee, US<br />
+        &#8226; Up By irene hoffman, US<br />
+        &#8226; Back Pain By The Present Group, US<br />
+        &#8226; Aches and Pains By The Present Group, US<br />
+        &#8226; Handshake By iconsmind.com, GB<br />
+        &#8226; Clock By Consumer Financial Protection Bureau, US<br />
+        &#8226; Trash By Alexandr Cherkinsky, RU<br />
+        &#8226; Arrows By David Swanson, US<br />
+        &#8226; Speak By Takao Umehara, US<br />
+        &#8226; Nurse By ProSymbols, US<br />
+        &#8226; Fast Food By Dmitry Mirolyubov, RU<br />
+        &#8226; Up Arrow By Max Burnside, US<br />
+        ]]>
+    </string>
+
+    <string name="confirm_tutorial">Opravdu chcete spustit průvodce aplikací?</string>
+    <string name="help">Nápověda</string>
+    <string name="scrollView_help">V této oblasti si vyberete větu v jedné z kategorií.</string>
+    <string name="textView_help">Tady se zobrazí vybraná věta.</string>
+    <string name="favorites_cat_help">Tato kategorie obsahuje věty označené jako oblíbené.</string>
+    <string name="favorites_chkbox_help">Kliknutím na hvězdičku přidáte větu mezi oblíbené.</string>
+    <string name="playButton_help">Toto tlačítko slouží k přehrání zobrazené věty.</string>
+    <string name="deleteButton_help">Toto tlačítko vymaže právě zobrazenou větu.</string>
+    <string name="levelUpButton_help">Toto tlačítko slouží k posunu o úroveň výše.</string>
+    <string name="scrollUpButton_help">Toto tlačítko posune seznam položek nahoru.</string>
+    <string name="scrollDownButton_help">Toto tlačítko posune seznam položek dolů.</string>
+    <string name="actionBar_help">Tato oblast slouží k navigaci v aplikaci.</string>
+    <string name="topPanelTitle_help">Zde se zobrazí ve které kategorii se právě nacházíte.</string>
+    <string name="homeButton_help">Toto tlačítko vás přesune na obrazovku s výběrem kategorii.</string>
+    <string name="helpButton_help">Toto tlačítko skrývá nápovědu, kterou právě vidíte.</string>
+    <string name="settingsButton_help">Toto tlačítko skrývá nastavení.</string>
+    <string name="categoryButton_help">Toto tlačítko zobrazí obsah kategorie</string>
+    <string name="sentenceButton_help">Toto je věta, kterou je možno přehrát. Pro přehání stiskněte tlačítko s ústy.</string>
+    <string name="tutorial_next">ROZUMÍM</string>
+    <string name="tutorial_end">UKONČIT PRŮVODCE</string>
+
+
+    <string name="empty_string" />
+    <string name="speak">speak</string>
+    <string name="delete">delete</string>
+    <string name="levelUp">level up</string>
+    <string name="up">up</string>
+    <string name="down">down</string>
+    <string name="placeholderText">lorem ipsum dolor sit amet</string>
+    <string name="category">category</string>
+    <string name="about_menuItem">O aplikaci</string>
+    <string name="closeDialog">Zavřít</string>
+    <string name="toggleCaptions_menuItem">Zapnout popisky kategorií</string>
+    <string name="homeScreenCategoryName">Hlavní obrazovka</string>
+    <string name="favsCategoryName">Oblíbené</string>
+
+</resources>

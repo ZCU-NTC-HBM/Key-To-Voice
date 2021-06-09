@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="topPanelButtonStyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:padding">@dimen/topPanelButtonPadding</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="topPanelTextStyle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/baseTextSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+
+    <style name="sentenceTextStyle" parent="topPanelTextStyle">
+        <item name="android:textColor">#000</item>
+        <item name="android:paddingBottom">@dimen/sentencePadding</item>
+        <item name="android:paddingTop">@dimen/sentencePadding</item>
+    </style>
+
+    <style name="menuItemStyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">#000</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:paddingTop">@dimen/menuItemPadding</item>
+        <item name="android:paddingBottom">@dimen/menuItemPadding</item>
+    </style>
+
+</resources>

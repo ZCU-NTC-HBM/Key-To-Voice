@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/sentenceCheckbox"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:layout_width="@dimen/sentenceHeight"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:contentDescription="@string/favorites_chkbox_help"
+        android:tag="@string/favorites_chkbox_help"
+        app:backgroundTint="@color/colorPrimaryLight"
+        app:srcCompat="@drawable/star" />
+
+    <TextView
+        android:id="@+id/sentenceLabel"
+        style="@style/sentenceTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="New Text" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/playButton"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:layout_width="@dimen/sentenceHeight"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:contentDescription="@string/playButton_help"
+        android:tag="@string/playButton_help"
+        app:backgroundTint="@color/colorPrimaryLight"
+        app:srcCompat="@drawable/speak" />
+</merge>

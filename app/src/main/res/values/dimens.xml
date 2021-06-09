@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="topPanelHeight">128dp</dimen>
+    <dimen name="baseTextSize">48sp</dimen>
+    <dimen name="topPanelButtonPadding">16dp</dimen>
+    <dimen name="appPadding">8dp</dimen>
+    <dimen name="categoryButtonWidth">160dp</dimen>
+    <dimen name="categoryButtonHeight">197dp</dimen>
+    <dimen name="aboutTextSize">26sp</dimen>
+    <dimen name="categoryTitleTextSize">26sp</dimen>
+    <dimen name="sentencePadding">4dp</dimen>
+    <dimen name="menuItemPadding">16dp</dimen>
+    <dimen name="sentenceHeight">96dp</dimen>
+</resources>

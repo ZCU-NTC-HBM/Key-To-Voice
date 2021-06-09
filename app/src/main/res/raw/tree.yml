@@ -1,0 +1,231 @@
+rootChildren:
+-  type: cat
+   image: food
+   label: "Jídlo"
+   children:
+   -  type: wrd
+      image: w1
+      label: "Mám hlad."
+   -  type: wrd
+      image: w1
+      label: "Mám žízeň."
+   -  type: wrd
+      image: w1
+      label: "Kdy budu moct jíst?"
+-  type: cat
+   image: time
+   label: "Čas"
+   children:
+   -  type: wrd
+      image: w1
+      label: "Kolik je hodin?"
+   -  type: wrd
+      image: w1
+      label: "Kdy půjdu z JIP?"
+   -  type: wrd
+      image: w1
+      label: "Kdy je další vizita?"
+   -  type: wrd
+      image: w1
+      label: "Kdy přijde lékař?"
+   -  type: wrd
+      image: w1
+      label: "Kdy jsou návštěvní hodiny?"
+   -  type: wrd
+      image: w1
+      label: "Jak dlouho zůstanu v nemocnici?"
+-  type: cat
+   image: nurse
+   label: "Zdravotní stav"
+   children:
+   -  type: wrd
+      image: w1
+      label: "Jaké beru léky?"
+   -  type: wrd
+      image: w1
+      label: "Jak dopadla operace?"
+   -  type: wrd
+      image: w1
+      label: "Kdo je můj ošetřující lékař?"
+   -  type: wrd
+      image: w1
+      label: "Kdy mi vytáhnou sondu?"
+   -  type: wrd
+      image: w1
+      label: "Chci prášek na spaní."
+   -  type: wrd
+      image: w1
+      label: "Chci prášek na bolest."
+-  type: cat
+   image: conversation
+   label: "Konverzace"
+   children:
+   -  type: wrd
+      image: w1
+      label: "Chtěl bych mluvit s lékařem."
+   -  type: wrd
+      image: w1
+      label: "Chtěl bych mluvit s rodinou."
+   -  type: wrd
+      image: w1
+      label: "Můžu otevřít okno?"
+   -  type: wrd
+      image: w1
+      label: "Můžu zavřít okno?"
+   -  type: wrd
+      image: w1
+      label: "Můžu zhasnout?"
+   -  type: wrd
+      image: w1
+      label: "Můžu rozsvítit?"
+   -  type: wrd
+      image: w1
+      label: "Můžu zapnout televizi?"
+   -  type: wrd
+      image: w1
+      label: "Můžu vypnout televizi?"
+   -  type: wrd
+      image: w1
+      label: "Můžu přepnout program?"
+   -  type: wrd
+      image: w1
+      label: "Potřebuji na záchod."
+   -  type: wrd
+      image: w1
+      label: "Chci se umýt."
+-  type: cat
+   image: greeting
+   label: "Fráze"
+   children:
+   -  type: wrd
+      image: w1
+      label: "Ano"
+   -  type: wrd
+      image: w1
+      label: "Ne"
+   -  type: wrd
+      image: w1
+      label: "Ahoj"
+   -  type: wrd
+      image: w1
+      label: "Dobrý den"
+   -  type: wrd
+      image: w1
+      label: "Děkuji"
+   -  type: wrd
+      image: w1
+      label: "Prosím"
+   -  type: wrd
+      image: w1
+      label: "Není zač"
+-  type: cat
+   image: directions
+   label: "Směry"
+   children:
+   -  type: wrd
+      image: w1
+      label: "vlevo"
+   -  type: wrd
+      image: w1
+      label: "vpravo"
+   -  type: wrd
+      image: w1
+      label: "nahoře"
+   -  type: wrd
+      image: w1
+      label: "dole"
+-  type: cat
+   image: pain
+   label: "Bolesti"
+   children:
+   -  type: cat
+      image: head
+      label: "Hlava"
+      children:
+      -  type: wrd
+         image: w1
+         label: "Dusím se!"
+      -  type: wrd
+         image: w1
+         label: "Jsem zahleněný."
+      -  type: wrd
+         image: w1
+         label: "Potřebuji odsát."
+      -  type: wrd
+         image: w1
+         label: "Je mi na zvracení."
+      -  type: wrd
+         image: w1
+         label: "Točí se mi hlava."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě hlava."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě zuby."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě v krku."
+      -  type: wrd
+         image: w1
+         label: "Špatně slyším."
+      -  type: wrd
+         image: w1
+         label: "Špatně se mi dýchá."
+   -  type: cat
+      image: arm
+      label: "Ruce"
+      children:
+      -  type: wrd
+         image: w1
+         label: "Bolí mě ruka."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě rameno."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě loket."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě zápěstí."
+      -  type: wrd
+         image: w1
+         label: "Brní mě ruka."
+      -  type: wrd
+         image: w1
+         label: "Nemám cit v ruce."
+   -  type: cat
+      image: body
+      label: "Tělo"
+      children:
+      -  type: wrd
+         image: w1
+         label: "Bolí mě záda."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě v kříži."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě na hrudníku."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě břicho."
+   -  type: cat
+      image: leg
+      label: "Nohy"
+      children:
+      -  type: wrd
+         image: w1
+         label: "Bolí mě noha."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě kyčel."
+      -  type: wrd
+         image: w1
+         label: "Bolí mě kotník."
+      -  type: wrd
+         image: w1
+         label: "Brní mě noha."
+      -  type: wrd
+         image: w1
+         label: "Nemám cit v noze."

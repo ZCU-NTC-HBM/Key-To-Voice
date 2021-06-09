@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="topPanelHeight">128dp</dimen>
+    <dimen name="controlsPanelWidth">144dp</dimen>
+    <dimen name="baseTextSize">48sp</dimen>
+    <dimen name="topPanelButtonPadding">16dp</dimen>
+</resources>
